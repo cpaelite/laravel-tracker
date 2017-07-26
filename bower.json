@@ -1,0 +1,28 @@
+{
+  "name": "bower",
+  "version": "0.0.1",
+  "authors": [
+    "jameszhou <jetango@163.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datetimepicker": "2.4.3",
+    "jquery": "2.1.4",
+    "jquery-form-validator": "2.2.1",
+    "jquery-ui": "1.11.4",
+    "respond": "1.4.2",
+    "jquery.scrollTo": "2.1.2",
+    "jquery.nicescroll": "3.7.6",
+    "bootstrap": "3.3.7",
+    "html5shiv": "3.7.2",
+    "jquery-legacy": "jquery#1.11.3",
+    "dcjqaccordion": "^2.7.1"
+  }
+}

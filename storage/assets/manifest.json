@@ -1,5 +1,14 @@
 {
   "css/index.min.css": "css/index-d109384f43.min.css",
+  "font/glyphicons-halflings-regular.eot": "font/glyphicons-halflings-regular-f4769f9bdb.eot",
+  "font/glyphicons-halflings-regular.svg": "font/glyphicons-halflings-regular-8988968814.svg",
+  "font/glyphicons-halflings-regular.ttf": "font/glyphicons-halflings-regular-e18bbf611f.ttf",
+  "font/glyphicons-halflings-regular.woff": "font/glyphicons-halflings-regular-fa2772327f.woff",
+  "font/glyphicons-halflings-regular.woff2": "font/glyphicons-halflings-regular-448c34a56d.woff2",
   "image/ad_1.jpg": "image/ad_1-a6a7557cea.jpg",
-  "js/index.min.js": "js/index-f8ddd58ee6.min.js"
+  "js/index.min.js": "js/index-f8ddd58ee6.min.js",
+  "main-ie.min.css": "main-ie-1575964f64.min.css",
+  "main-ie.min.js": "main-ie-eb907293ee.min.js",
+  "main.min.css": "main-1575964f64.min.css",
+  "main.min.js": "main-85cacee75a.min.js"
 }

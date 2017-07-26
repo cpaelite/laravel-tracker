@@ -9,7 +9,7 @@
     @if(isset($title))
         <title>{{$title}}</title>
     @else
-        <title>安个家 · 经纪人服务中心</title>
+        <title>test</title>
     @endif
     <link rel="shortcut icon" href="/favicon.ico" />
     @include('resources.styles')

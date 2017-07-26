@@ -9,6 +9,8 @@
   },
   "scripts": {
     "deploy": "./node_modules/gulp-ufa/bin/ufa . -p --dir public/dist -r blog",
-    "dev": "./node_modules/gulp-ufa/bin/ufa . -d --dir www/ -r blog"
+    "dev": "./node_modules/gulp-ufa/bin/ufa . -d --dir www/ -r blog",
+    "devmain": "./node_modules/gulp-ufa/bin/ufa . devmain -p --dir public/dist -r blog",
+    "devlibs": "./node_modules/gulp-ufa/bin/ufa . devlibs -p --dir public/dist -r blog"
   }
 }
