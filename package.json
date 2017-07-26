@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "repository": "git@git.corp.angejia.com:service/angejia.git",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "concurrently": "^2.0.0",
+    "gulp-ufa": "git+ssh://git@git.corp.angejia.com:frontend/gulp-ufa.git"
+  },
+  "scripts": {
+    "deploy-bureau": "gulp-ufa app-bureau --production --dir public/dist",
+    "deploy-crm": "gulp-ufa app-crm -p --dir public/dist",
+    "deploy-platform": "gulp-ufa app-platform --production --dir public/dist",
+    "deploy-site": "gulp-ufa app-site --production --dir public/dist",
+    "deploy-web": "node app-web/public/tools/r.js -o app-web/public/tools/build.js",
+    "deploy": "concurrently \"npm run deploy-bureau\" \"npm run deploy-crm\" \"npm run deploy-platform\" \"npm run deploy-site\" \"npm run deploy-web\""
+  }
+}
